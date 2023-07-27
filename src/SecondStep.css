@@ -1,0 +1,86 @@
+.SecondStep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+  
+.farmImage {
+    width: 25%;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.revenue {
+    font-size: 1.1em;
+    font-style: italic;
+    margin: 10px;
+}
+  
+.storyline {
+    width: 50%;
+    margin: 20px;
+}
+  
+.lastAction {
+    font-size: 1em;
+    margin: 10px;
+    color: #333;
+    font-style: italic;
+}
+  
+.month {
+    font-size: 1.1em;
+    margin: 10px;
+}
+  
+.actionButtons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px;
+}
+  
+.slider {
+    flex-grow: 1;
+}
+  
+.slider-value {
+    margin-left: 10px;
+    white-space: nowrap;
+}
+  
+.resetButton, .goBackButton {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+button:nth-of-type(1) {
+    background-color: #ccffcc;
+    color: #333;
+}
+
+button:nth-of-type(2) {
+    background-color: #cce7ff;
+    color: #333;
+}
+
+button:nth-of-type(3) {
+    background-color: #ffedcc;
+    color: #333;
+}
+
+.tax-container button {
+    background-color: #ffc2c2;
+    color: #333;
+}

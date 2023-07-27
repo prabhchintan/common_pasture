@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 15px; /* Added padding to make text mobile-friendly */
+}
+
+.pastureImage {
+  width: 25%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.score {
+  text-align: center; /* Changed to center */
+  width: 100%;
+  max-width: 800px;
+}
+
+.storyline, .consideration {
+  text-align: justify;
+  color: #333;
+  max-width: 800px;
+}
+
+.action-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.cooperate-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.defect-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.reset-button {
+  background-color: #ff9800;
+  color: white;
+}
+
+.cooperate-button:disabled,
+.defect-button:disabled {
+  background-color: #ddd;
+  color: #aaa;
+  cursor: not-allowed;
+  box-shadow: none;
+}
